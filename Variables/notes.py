@@ -1,0 +1,1 @@
+#johann hines, Variables notes
