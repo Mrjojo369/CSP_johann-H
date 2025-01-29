@@ -3,3 +3,4 @@
 name = input("please tell me your name: ")
 
 print(name, ", welcome to my program.")
+print("it doesnt do anything yet")
