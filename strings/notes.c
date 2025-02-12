@@ -1,13 +1,13 @@
 //johann hines, Strings Notes.c
 #include <stdio.h>
 #include <string.h>
-char name[20];
+char decor[] = "what is your name";
 
 int main(void){
-    //printf("please tell me your full name:\n");
-    //scanf("%s", name);
+    scanf("please tell me your full name:\n");
+    scanf("%s", decor);
    // fgets(name, 20, stdin);
-   // printf("Hello %s, welcome to my program", name);
+    //printf("Hello %s, welcome to my program", name);
    //char sentence[] = "The quick brown fox jumps over the lazy dog";
    //printf("%lu\n", strlen(sentence));
 // printf("%lu\n", sizeof(sentence[16])); will always give one more than string length. 
