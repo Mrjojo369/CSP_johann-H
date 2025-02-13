@@ -1,5 +1,5 @@
  //johann hines, template. 
-#include <studip.h>
+#include <stdio.h>
 
 
 int main(void){
