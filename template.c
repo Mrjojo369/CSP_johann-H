@@ -1,8 +1,8 @@
- //johann hines, template. 
+ //johann hines, template
 #include <stdio.h>
 
 
 int main(void){
-    printf("helloworld");
+    printf("hello world");
     return 0;
 }
