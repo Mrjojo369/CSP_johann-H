@@ -1,12 +1,12 @@
 //johann Hines, First program.c
 #include <stdio.h>
-char name[] = "What is your name?";
-char good[] = "I like your name.";
+char name[20] ;
+char good[20] ; 
 
 int main(void){
-printf("%s\n", "What is your name?");
-scanf("%s\n");
-printf("%s\n","hello %s ,I like your name");
-scanf("%s\n");
+printf("What is your name: \n");
+scanf("%s", name); 
+printf("Hello %s I like your name", name);
+//printf("%s\n");
  return 0;
 }
