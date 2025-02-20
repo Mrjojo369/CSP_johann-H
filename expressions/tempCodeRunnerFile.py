@@ -1,0 +1,1 @@
+you can spend ${Spending_money} or {round (spending_money_per, 2)}% on recreation/spending money."

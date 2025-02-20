@@ -15,6 +15,6 @@ char fruit[20];
     scanf("%s", liquid);
     printf("tell me your favorite fruit\n");
     scanf("%s", fruit);
-    printf ("when" "%s", name "was doing" "%s", action "Hew noticed a glass of" "%s", liquid "he drank it and found a" "%s", "Fruit");
+    printf ("when %s, was %s, He noticed a glass of %s,  he drank it and found a %s", name, action, liquid, fruit);
 
 }
