@@ -21,6 +21,7 @@ int main(void){
       scanf("%s", groceries);
        printf("how much do you spend on transportation each month?\n");
        scanf("%s", transportation);
+     printf("you can spend  ")
 
 
     return 0;
