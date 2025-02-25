@@ -34,4 +34,5 @@ else:
   #  print("your name does not have the letter a")
 #else: 
   #  print("your name does have thr letter  a")
-# you write logical operators diffrently from python and c in py. They are (and, not, or)
+# you write logical operators diffrently from python and c in py. They are (and, not, or) 
+#notes
