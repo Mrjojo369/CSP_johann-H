@@ -3,14 +3,14 @@
 char name [50];
 char income [50];
 char rent [50];
-char utilities [50];
-char groceries [50];
-char transportation [50];
+int utilities [50];
+int groceries [50];
+int  transportation [50];
 
 int main(void){
     printf("what is your name?\n");
     scanf ("%s", name);
-    printf( "welcome to my financial calculator\n" );
+    printf( "hello, %s welcome to my financial calculator\n", name);
     printf("how much do you make per month?\n");
     scanf("%s", income);
     printf("how much do you spend on rent each month?\n");
@@ -21,7 +21,10 @@ int main(void){
       scanf("%s", groceries);
        printf("how much do you spend on transportation each month?\n");
        scanf("%s", transportation);
-     printf("you can spend  ")
+     printf(rent/income)*100;
+     printf(utilities/income)*100;
+     printf(groceries/income)*100;
+     printf(transportation/income)*100;
 
 
     return 0;
