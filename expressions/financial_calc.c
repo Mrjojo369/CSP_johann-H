@@ -25,6 +25,7 @@ int main(void){
      printf(utilities/income)*100;
      printf(groceries/income)*100;
      printf(transportation/income)*100;
+    
 
 
     return 0;
