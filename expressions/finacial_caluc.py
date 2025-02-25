@@ -12,7 +12,7 @@ utilites= float(input("How much do you pay for utilities a month?"))
 transportation= float(input("How much do you pay for transporation in a month?"))
 # ask for groceries amount (user input)
 groceries= float(input("How much do you spend on groceries a month?"))
-Spending_money= float(input("how much money do you spend on recreation a month?")) 
+Spending_money= float(input("how much money do you plan on saving a month?")) 
 # calculate savings as 10% of income 
 savings = income*.10
 print(f"you can save 10% or, {round(savings, 4)} dollers a month")
@@ -37,4 +37,5 @@ print(f"at this time you can spend ${transportation} or {round (transportation_p
 #tell user catagory spending amount and percent for groceries ("you spend $XX.XX on groceries and that is xx% of your income")
 print(f"at this time you can spend ${groceries} or {round (groceries_per, 2)}% on groceries.")
 #tell user catagory spending amount and percent for spening money("you spend $XX.XX on spending money and that is xx% of your income")
-print(f"at this time you can spend ${Spending_money} or {round (spending_money_per, 2)}% on recreation/spending money.")
+print(f"at this time you can have a amount of ${Spending_money} or {round (spending_money_per, 2)}% on savings.")
+print(f"you have ${Spending_money} left for spending money, after expesnes and savings  ")
