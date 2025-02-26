@@ -6,6 +6,8 @@ char rent [50];
 int utilities [50];
 int groceries [50];
 int  transportation [50];
+int savings [50];
+int spending money [50];
 
 int main(void){
     printf("what is your name?\n");
@@ -26,7 +28,13 @@ int main(void){
      printf(groceries/income)*100;
      printf(transportation/income)*100;
     
-
-
+savings = income * .2;
+    expenses = rent + utilites + groceries + transportation;
+    used = expenses - income - savings;
+    printf("you bring in %.2f\n", income);
+    printf("you spend about %.2f\n on expenses" , expenses);
+    printf("you will save approximatly %.2f\n", savings);
+    printf("you bring in %.2f\n", income);
+    printf("you will have about%.2f\n for spending money", spending money);
     return 0;
 }
