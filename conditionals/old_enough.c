@@ -1,11 +1,11 @@
-//johann hines, template
+//johann hines, old enough
 #include <stdio.h>
 int num = 16
 
 int main(void){
-   if (num > 5 && num < 10){
-        if(num == 7){
-            printf("%d is an unlucky number", num);
+   if (num > 16 && num < 21){
+        if(num == 16){
+            printf("%d is your age you can drive", num);
         }else{
     printf("%d is a large single digit number\n", num);
         }
