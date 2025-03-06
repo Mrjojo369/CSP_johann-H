@@ -28,11 +28,11 @@ while x < 10:
 # 5. How do you make lists in python? 
     #You do brakets, with each variable in their own quotations and a comma between each (line21)
 # 6. How do you make for loops in python? 
-   num = 1
+num = 1
     #for sibling in siblings:
-    print(f"{num}.{siblings} hines")
-    num += 1 
-    for num in range(2,10, 2):
+print(f"{num}.{siblings} hines")
+num += 1 
+for num in range(2,10, 2):
      print(num)
 # 7. How do you make while loops in python?
 import random\
