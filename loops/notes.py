@@ -19,7 +19,7 @@ while x < 10:
   # a bunch of values in the same variable 
     siblings = ["rohann", "daynna", "brianna", "samira", "brian", "samantha", "amanda"]
     #print one item from list brakets then the index of the item you want to print 
-    print(siblings[3])
+    siblings = ["rohann", "daynna", "brianna", "samira", "brian", "samantha", "amanda"]
     #change an item in a list 
     siblings[5] = "ryan" #the seven in parenthasis is the index of the value
     #remove item from a list 
@@ -28,7 +28,7 @@ while x < 10:
 # 5. How do you make lists in python? 
     #You do brakets, with each variable in their own quotations and a comma between each (line21)
 # 6. How do you make for loops in python? 
-    num = 1
+   num = 1
     #for sibling in siblings:
     print(f"{num}.{siblings} hines")
     num += 1 
