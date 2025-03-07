@@ -3,17 +3,14 @@
 int num = 16;
 
 int main(void){
-   if (num > 16 && num < 21){
-        if(num == 16){
-            printf("%d is your age you can drive", num);
-        }else{
-    printf("%d is your age, you can not vote  \n", num);
-        }
-    }else if (num > 10){
-        printf("%d you can go to school\n");
-    }else{
-        printf("%d you can get your learners permit\n", num);
+   if (num >= 18){
+            printf("%d you can vote",num);
+    }else if (num >= 16){
+        printf("%d is your age, you are old enough to drive\n", num);
+    }else if (num == 15){ 
+        printf("%d is your age, you can get your learners permit\n", num);
+    }else if (num < 15 && num > 4){
+        printf("You can go to school");
     }
-
     return 0;
 }
