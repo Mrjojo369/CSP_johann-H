@@ -11,6 +11,8 @@ int main(void){
         printf("%d is your age, you can get your learners permit\n", num);
     }else if (num < 15 && num > 4){
         printf("You can go to school");
+    }else{
+        printf("You are too young for anything")
     }
     return 0;
 }
