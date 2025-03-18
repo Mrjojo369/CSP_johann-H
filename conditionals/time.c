@@ -18,6 +18,8 @@ int main(void){
     time(&rawtime);
     timeinfo = localtime(&rawtime);
     printf("Our current time and date is %s\n", asctime(timeinfo));
+
+
 // current hour
 time_t now = time(NULL);
 struct tm *tm_struct = localtime(&now);
