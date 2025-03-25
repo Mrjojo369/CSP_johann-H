@@ -1,18 +1,23 @@
  //johann hines, template
 #include <stdio.h>
 
-
+int(x) =1;
 int main(void){
-  int x;
+while (x >0 && x < 51){
   if (x % 5 == 0 && x % 3 == 0){
-    printf("fizzbuzz");
+    printf("fizzbuzz\n");
   }else if (x % 5 == 0){
-    printf("buzz");
+    printf("buzz\n");
   }else if (x % 3 == 0){
-    printf("fizz");
+    printf("fizz\n");
   }else{
-    printf("%d", x);
-    return 0;
+    printf("%d\n", x);
   }
+  x +=1;
 }
+    return 0;
+}
+
+  
+
 
