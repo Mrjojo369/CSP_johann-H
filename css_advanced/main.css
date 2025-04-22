@@ -31,3 +31,8 @@ img{
 4. cursive
 5. fantasy 
 (always goes at the end of font list.)*/
+#img{
+    display:block;
+    margin:auto;
+    width: 50%;
+}
