@@ -1,0 +1,28 @@
+body{
+    color:aliceblue;
+    background-color: #09093B;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+img{   
+    height: 163px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+h1{
+    text-align: center;
+}
+.fortnite{
+    height: 123px;
+    display: block;
+    margin: auto;
+   
+}
+#smt{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+}
