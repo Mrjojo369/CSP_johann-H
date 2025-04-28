@@ -9,6 +9,21 @@ body{
   font-weight: 400;
   font-style: normal;
 }
-#p{
-
+#paras1{
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+    border-radius: 5px;
+    padding:8px;
+    margin:10px;
+    background-color: bisque;
+}
+#paragraph1{
+  
+}
+#on{
+  display: none;
+}
+#img2{
+  height: 100px;
 }

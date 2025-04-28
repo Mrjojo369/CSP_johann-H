@@ -36,3 +36,6 @@ function more(){
     document.getElementById("shw").innerHTML = "show more"
     }
 }
+
+<p id = "on">3 more sentences abt why its the best and things it has to offer(lead into image two) hkgifqwhggfoihewf wgihfiwhgfdoiuwqehf gwiohqoirgfhiwqeuf gqifiwqehfiu3</p>
+    <img id = "on2" src = "hidden image"></img>
