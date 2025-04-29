@@ -16,14 +16,43 @@ body{
     border-radius: 5px;
     padding:8px;
     margin:10px;
-    background-color: bisque;
+    
 }
 #paragraph1{
-  
+  border: 10px, solid, rgb(175, 141, 100);
 }
+#para2{
+  height: 190px;
+    justify-content: center;
+    display: block;
+    margin: auto;
+  border: 10px, solid, rgb(175, 141, 100);
+}
+
+#para3{
+  border: 10px, solid, rgb(175, 141, 100);
+}
+
 #on{
   display: none;
 }
 #img2{
-  height: 100px;
+  height: 150px;
+}
+#img-list{
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+    border-radius: 5px;
+    padding:8px;
+    margin:10px;
+}
+#img2{
+  border: 10px, solid, rgb(175, 141, 100);
+}
+#lili{
+  border: 10px, solid, rgb(175, 141, 100);
+}
+#img1{
+  border: 10px, solid, rgb(175, 141, 100);
 }
