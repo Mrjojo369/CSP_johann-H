@@ -13,16 +13,18 @@ body{
   display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     gap: 20px;
-    border-radius: 5px;
     padding:8px;
     margin:10px;
+    border-radius: 50px;
     
 }
 #paragraph1{
   border: 10px, solid, rgb(175, 141, 100);
+  font-size: 30px;
+  border-radius: 40px;
 }
 #para2{
-  height: 190px;
+  height: 400px;
     justify-content: center;
     display: block;
     margin: auto;
@@ -30,17 +32,24 @@ body{
 }
 
 #para3{
+  border-radius: 40px;
+  font-size: 30px;
   border: 10px, solid, rgb(175, 141, 100);
 }
 
 #on{
   display: none;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 20px;
+  border-radius: 5px;
+  padding:8px;
+  margin:10px;
 }
 #img2{
-  height: 150px;
+  height: 300px;
 }
 #img-list{
-  display: grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     gap: 20px;
     border-radius: 5px;
@@ -52,7 +61,18 @@ body{
 }
 #lili{
   border: 10px, solid, rgb(175, 141, 100);
+  font-size: 20px;
+  border-radius: 40px;
 }
 #img1{
+  height: 400px;
+  border: 10px, solid, rgb(175, 141, 100);
+}
+#hiddenpara{
+  border-radius: 40px;
+  font-size: 30px;
+  border: 10px, solid, rgb(175, 141, 100);
+}
+#epicthings{
   border: 10px, solid, rgb(175, 141, 100);
 }
